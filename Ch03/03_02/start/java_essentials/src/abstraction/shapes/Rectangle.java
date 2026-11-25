@@ -9,6 +9,10 @@ public class Rectangle {
         setLength(length);
         setWidth(width);
     }
+    
+    public double calculateArea() {
+        return length * width;
+    }
 
     public double getLength() {
         return length;
